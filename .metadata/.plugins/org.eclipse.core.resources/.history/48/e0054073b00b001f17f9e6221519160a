@@ -1,0 +1,17 @@
+package com.Telecom.Telecom;
+
+public class O2 implements Sim {
+
+	@Override
+	public void Calling() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void Data() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean id="vodafone" class="com.Telecom.Telecom.Vodafone"></bean>
+<bean id="o2" class="com.Telecom.Telecom.O2" ></bean>
