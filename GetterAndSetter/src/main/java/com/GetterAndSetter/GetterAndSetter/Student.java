@@ -5,7 +5,14 @@ public class Student {
 	private String StudentName;
 	private int StudentId;
 	
+	private String Studenthobby;
 	
+	
+	public Student(String Studenthobby) {
+		super();
+		this.Studenthobby = Studenthobby;
+	}
+
 	public void setStudentId(int StudentId)
 	{
 		this.StudentId=StudentId;
@@ -20,6 +27,7 @@ public class Student {
 	public void showDetails()
 	{
 		System.out.println("Student Name is: " +StudentName);
-		System.out.println("Studern Id is: "+StudentId);
+		System.out.println("Studert Id is: "+StudentId);
+		System.out.println("Student hobby is: "+Studenthobby);
 	}
 }

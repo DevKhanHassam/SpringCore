@@ -10,6 +10,7 @@
  
  <property name="StudentName" value="Hassam"/> 
  <property name="StudentId" value="1"/>
+ <constructor-arg name="Studenthobby" value="Badminton"></constructor-arg>
  
  </bean>  
     
