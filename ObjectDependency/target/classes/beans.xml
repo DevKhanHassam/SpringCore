@@ -5,11 +5,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
-<bean id="CheatingMaterial" class="com.ObjectDependency.ObjectDependency.CheatingMaterial"></bean>
+                           
+                           
+                      
+<bean id="CheatingMaterial" class="com.ObjectDependency.ObjectDependency.CheatingMaterial"/>
 
 <bean id="Student1" class="com.ObjectDependency.ObjectDependency.Student1">
 <property name="cheat" ref="CheatingMaterial"></property>
 </bean>
+
 <bean id="Student2" class="com.ObjectDependency.ObjectDependency.Student2">
 <property name="cheat" ref="CheatingMaterial"></property>
 </bean>
