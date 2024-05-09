@@ -5,16 +5,17 @@ import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Body {
 
-	 
+
+	@Autowired
+	@Qualifier("dil")
 	private Heart  heartobj;
 	
 	
-	@Autowired
-	@Qualifier("dil")
-	public void setHeartobj(Heart heartobj)
-	{
-		this.heartobj= heartobj;
-	}
+	
+//	public void setHeartobj(Heart heartobj)
+//	{
+//		this.heartobj= heartobj;
+//	}
 	
 	
 //	@Autowired

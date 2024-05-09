@@ -9,9 +9,6 @@ public class Body {
 	private Heart heartObj;
 	
 	
-	public void setHeartObj(Heart heartObj) {
-		this.heartObj = heartObj;
-	}
 
 
 	public void isAlive() {
